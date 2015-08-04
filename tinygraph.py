@@ -11,7 +11,7 @@ def tiny_graph(
     "Produce a pil file containing a tiny graph of the values"
     canvas = TinyCanvas(len(values), height, point_size, background=background)
     canvas.tiny_line(values, colour=foreground)
-    return canvas.image
+    return canvas
 
 class TinyCanvas(object):
     def __init__(self, num_points, height, point_size=1, background=(255, 255, 255)):
