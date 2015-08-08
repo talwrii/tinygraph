@@ -17,3 +17,13 @@ good xpm support
     image = tinygraph.tiny_graph(10, [1,2,3,4,5])
     image.save('graph.xpm')
     image.save('graph.bmp')
+
+## dzengraph.py
+
+This library is well-suited for use with dzen2. 
+A utility `dzengraph` is provided to make this
+a little easier
+
+### Usage
+
+        {python -m dzengraph graph1 1 2 3 4 5 5 5 ; sleep 10 } | dzen2
