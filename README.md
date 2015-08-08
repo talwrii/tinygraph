@@ -1,4 +1,4 @@
-# tingraph
+# tinygraph
 
 Python library and command line program to produce very small graphs
 without any wasted pixel for things like labels and axes. Has
